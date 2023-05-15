@@ -1,0 +1,10 @@
+h2 {
+  text-align: start;
+}
+#noCard {
+  margin: 0;
+  background: no-repeat url(../assets/NoCard.svg);
+  background-size: contain;
+
+  height: 100%;
+}

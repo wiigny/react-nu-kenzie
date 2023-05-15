@@ -1,0 +1,17 @@
+.listTransac {
+  background-color: var(--gray100);
+  padding: 6px 24px;
+  border-radius: var(--radius-1);
+  border-left: 4px solid var(--brand1000);
+}
+.listTransac > div button {
+  height: fit-content;
+  border: none;
+  border-radius: var(--radius-1);
+  padding: 5px 10px;
+  cursor: var(--pointer);
+  transition: var(--animation-duration) var(--animation-type);
+}
+.listTransac > div button:hover {
+  background-color: var(--gray300);
+}

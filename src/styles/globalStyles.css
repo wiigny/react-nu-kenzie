@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+  --brand100: #fd377e;
+  --brand200: #e34981;
+  --brand1000: #03b898;
+
+  --gray100: #f8f9fa;
+  --gray200: #e9ecef;
+  --gray300: #868e96;
+  --gray400: #212529;
+
+  --black-fixed: #000000;
+  --white-fixed: #ffffff;
+
+  --alert100: #ce4646;
+  --sucess100: #4ba036;
+
+  --font-size-0: 2.375rem;
+  --font-size-1: 1.75rem;
+  --font-size-2: 1.5rem;
+  --font-size-3: 1.25rem;
+  --font-size-4: 1rem;
+  --font-size-5: 0.75rem;
+
+  --font-weight-1: 100;
+  --font-weight-2: 200;
+  --font-weight-3: 300;
+  --font-weight-4: 400;
+  --font-weight-5: 500;
+  --font-weight-6: 600;
+  --font-weight-7: 700;
+  --font-weight-8: 800;
+  --font-weight-9: 900;
+
+  --line-height: 150%;
+
+  --width-fullPercent: 100%;
+  --width-halfPercent: 50%;
+
+  --width-fullvw: 100vw;
+  --width-halfvw: 50vw;
+
+  --height-fullPercent: 100%;
+  --height-halfPercent: 50%;
+
+  --height-fullvh: 100vh;
+  --height-halfvh: 50vh;
+
+  --radius-1: 4px;
+  --radius-2: 8px;
+  --radius-50: 50%;
+
+  --pointer: pointer;
+
+  --animation-duration: 0.4s;
+  --animation-type: ease;
+}
+
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+}
+span {
+  color: var(--brand100);
+}

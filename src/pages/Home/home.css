@@ -1,0 +1,111 @@
+* {
+  list-style: none;
+}
+
+header {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.336);
+}
+header button {
+  border: none;
+  background-color: var(--gray200);
+  color: var(--gray400);
+  padding: 10px 15px;
+  height: fit-content;
+  border-radius: var(--radius-2);
+  cursor: var(--pointer);
+  transition: var(--animation-duration) var(--animation-type);
+}
+header button:hover {
+  background-color: var(--brand200);
+  color: var(--white-fixed);
+}
+
+#mainHome {
+  padding-top: 70px;
+}
+#mainHome form {
+  border: 1px solid var(--gray200);
+  border-radius: var(--radius-1);
+  padding: 40px 30px;
+}
+
+#mainHome form > div {
+  width: 100%;
+}
+#mainHome form > div > input {
+  width: -webkit-fill-available;
+}
+#mainHome form > div p {
+  margin: 0;
+  color: var(--gray300);
+}
+#mainHome form input,
+#mainHome form select {
+  background-color: var(--gray100);
+  border: none;
+  padding: 13px 16px;
+  border-radius: var(--radius-2);
+}
+#mainHome form select {
+  padding: 15px 16px;
+}
+
+#mainHome form button {
+  width: 100%;
+  border: none;
+  background-color: var(--brand100);
+  color: var(--white-fixed);
+  padding: 10px 15px;
+  height: fit-content;
+  border-radius: var(--radius-2);
+  cursor: var(--pointer);
+  transition: var(--animation-duration) var(--animation-type);
+}
+#mainHome form button:hover {
+  background-color: var(--brand200);
+}
+
+#mainHome > div {
+  width: 100%;
+  margin-top: -10px;
+}
+
+#mainHome > div nav li {
+  background-color: var(--gray200);
+  color: var(--gray400);
+  padding: 10px 15px;
+  border-radius: var(--radius-2);
+  cursor: var(--pointer);
+}
+
+#mainHome > div ul {
+  padding: 0;
+}
+
+#mainHome > div section + section {
+  height: var(--width-fullPercent);
+}
+
+#mainHome .liActive {
+  background-color: var(--brand100);
+  color: var(--white-fixed);
+  transition: 0.3s ease;
+}
+#mainHome .liActive:hover {
+  background-color: var(--brand200);
+}
+
+.w45 {
+  width: 45%;
+}
+
+@media (max-width: 1100px) {
+  #mainHome {
+    flex-direction: column;
+  }
+}
+@media (max-width: 530px) {
+  #mainHome > div nav ul {
+    flex-direction: column;
+  }
+}

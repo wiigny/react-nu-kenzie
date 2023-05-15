@@ -1,0 +1,35 @@
+.mainInitial {
+  background-color: var(--gray400);
+  padding: 0;
+}
+.mainInitial > div {
+  height: var(--height-fullvh);
+}
+.mainInitial > div section:nth-child(1) {
+  color: var(--white-fixed);
+  text-align: start;
+}
+.mainInitial > div section:nth-child(1) button {
+  border: none;
+  width: 80%;
+  padding: 13px 0;
+  background-color: var(--brand100);
+  color: var(--white-fixed);
+  border-radius: var(--radius-2);
+}
+
+.mainInitial > div section:nth-child(2) {
+  height: 80vh;
+  width: var(--width-fullPercent);
+}
+.mainInitial > div section:nth-child(2) div {
+  height: var(--height-fullPercent);
+  background: center no-repeat url(./illustration.svg);
+  background-size: contain;
+}
+
+@media (max-width: 700px) {
+  .mainInitial #sect2 {
+    display: none;
+  }
+}
